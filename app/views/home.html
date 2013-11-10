@@ -1,0 +1,20 @@
+<ul class="container-fluid visible-phone">
+	<li class="row-fluid" ng-repeat="(sectionKeyname,section) in sections" >
+		<a href="#hero-{{sectionKeyname}}">
+			{{section.title}}
+		</a>
+	</li>
+</ul>
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="hero-unit span3" ng-repeat="(sectionKeyname,section) in sections" id="hero-{{sectionKeyname}}">
+		  <h1>{{section.title}}</h1>
+		  <ul>
+		      <li ng-repeat="skill in section.skills">{{skill}}</li>
+		  </ul>
+
+		  <a href="/{{sectionKeyname}}">Expand</a>
+		</div>
+	</div>
+</div>

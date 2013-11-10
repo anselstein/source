@@ -1,0 +1,15 @@
+#site-header{
+	max-width: 780px;
+	margin:auto;
+}
+
+	#site-title{
+		font-size: 48px;
+		line-height: 52px;
+		text-align: center;
+	}
+	#contact-info{
+	}
+		#contact-info > li{
+			list-style: none;
+		}
