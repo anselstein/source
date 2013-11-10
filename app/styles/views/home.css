@@ -1,4 +1,4 @@
-.hero-unit {
+.section-unit {
     margin: 50px auto 0 auto;
     width: 300px;
     font-size: 18px;
@@ -6,13 +6,15 @@
     line-height: 30px;
     background-color: #eee;
     border-radius: 6px;
-    padding: 10px 60px;
+    padding: 10px;
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
+.section-unit .section-title  {
+    font-size: 24px;
+    height: 72px;
+    line-height: 72px;
     letter-spacing: -1px;
     font-family: 'ostrich_sansblack';
     text-align: center;
+    display: block;
 }
